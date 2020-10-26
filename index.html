@@ -1,0 +1,65 @@
+<!-- Stoper-->
+<!-- Program odmierza czas -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Stoper</title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .panel {
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 60px;
+    text-align: center;
+    font-family: monospace;
+  }
+
+  button {
+    font-size: 44px;
+    margin: 30px;
+    padding: 0 10px;
+  }
+
+
+  .clock {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100vh;
+  }
+
+  span {
+    font-weight: bold;
+    font-family: monospace;
+  }
+</style>
+
+<body>
+  <button class="main">Start</button>
+  <button class="stop" id="demo" onclick="myFunction()" onclick="myFunction2()" onclick="myFunction3()">Stop</button>
+  <button class="reset">Reset</button>
+<div class="panel">
+    <span class="d"></span>d:
+    <span class="h"></span>h:
+    <span class="m"></span>m:
+    <span class="s"></span>s,
+    <span class="ms"></span>
+  </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>

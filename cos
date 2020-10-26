@@ -1,0 +1,18 @@
+//Późniejsza rozbudowa panelu
+<div class="panel">
+    <span class="d">
+      <p class="one">0:</p>
+    </span>
+    <span class="h">
+      <p>00:</p>
+    </span>
+    <span class="m">
+      <p>00:</p>
+    </span>
+    <span class="s">
+      <p>00</p>
+    </span>
+    <span class="ms">
+      <p>,0</p>
+    </span>
+  </div>
